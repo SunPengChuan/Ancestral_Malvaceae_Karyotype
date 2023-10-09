@@ -1,0 +1,29 @@
+optimization of topology, BL and inheritance probabilities using:
+ hmax = 6,
+ tolerance parameters: ftolRel=1.0e-6, ftolAbs=1.0e-6,
+                       xtolAbs=0.001, xtolRel=0.01.
+ max number of failed proposals = 75, liktolAbs = 1.0e-6.
+rootname for files: net6
+BEGIN: 15 runs on starting tree (3,(5,((#H9:::0.21434857918608988,((6,8):4.045794113137808,(1,(2)#H9:::0.7856514208139102):0.2797957017451259):1.9477087119973664):0.0)#H10:0.1591346133371938::0.758599873381951):0.13902645220413046,(#H10:3.9102403891841155e-6::0.24140012661804902,(7,4):0.509040302933997):1.7438735473276454);
+       using 16 processors
+
+main seed 1234
+seed: 1234 for run 1
+seed: 59084 for run 2
+seed: 76679 for run 3
+seed: 56623 for run 4
+seed: 46008 for run 5
+seed: 79402 for run 6
+seed: 85414 for run 7
+seed: 20058 for run 8
+seed: 29861 for run 9
+seed: 24683 for run 10
+seed: 57967 for run 11
+seed: 64888 for run 12
+seed: 1090 for run 13
+seed: 6642 for run 14
+seed: 95675 for run 15
+
+2023-10-06 14:17:5.47
+MaxNet is (3,(5,((#H9:::0.21434805401160412,((6,8):4.045803631694098,(1,(2)#H9:::0.7856519459883959):0.2797937955170369):1.947709816636769):0.0)#H10:0.15912677832032682::0.7585989233994281):0.13902180759857483,(#H10:2.4446468811837436e-7::0.2414010766005719,(7,4):0.5090519193093912):1.743834808361583); 
+with -loglik 21.74622305247029

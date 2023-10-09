@@ -1,0 +1,29 @@
+optimization of topology, BL and inheritance probabilities using:
+ hmax = 0,
+ tolerance parameters: ftolRel=1.0e-6, ftolAbs=1.0e-6,
+                       xtolAbs=0.001, xtolRel=0.01.
+ max number of failed proposals = 75, liktolAbs = 1.0e-6.
+rootname for files: net0
+BEGIN: 15 runs on starting tree (7,8,(5,(6,((3,4):4.396732782063573,(2,1):0.1741730282300491):1.3127602770737408):0.7645628779114721):1.5672133931397605);
+       using 16 processors
+
+main seed 1234
+seed: 1234 for run 1
+seed: 59084 for run 2
+seed: 76679 for run 3
+seed: 56623 for run 4
+seed: 46008 for run 5
+seed: 79402 for run 6
+seed: 85414 for run 7
+seed: 20058 for run 8
+seed: 29861 for run 9
+seed: 24683 for run 10
+seed: 57967 for run 11
+seed: 64888 for run 12
+seed: 1090 for run 13
+seed: 6642 for run 14
+seed: 95675 for run 15
+
+2023-10-06 18:16:18.698
+MaxNet is (7,8,(5,(6,((3,4):4.654782102771013,(1,2):0.16519589636749857):1.2673228722896654):0.7129063631965352):1.5495128125732385); 
+with -loglik 71.52740848743355
