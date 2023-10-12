@@ -1,0 +1,3 @@
+perl catfasta2phyml.pl -v -c -p aln/* >concatenation.phy
+trimal -in concatenation.phy -out concatenation.phy.trimal -automated1
+iqtree -s concatenation.phy.trimal -m JTT+R -alrt 1000 -B 1000 -T 8

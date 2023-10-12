@@ -1,0 +1,184 @@
+IQ-TREE 2.2.2.2 COVID-edition built Jan 16 2023
+
+Input file name: concatenation9.phy.trimaled
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 409172
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 19 sequences with 468931 amino-acid sites
+Number of constant sites: 282087 (= 60.1553% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 282087 (= 60.1553% of all sites)
+Number of parsimony informative sites: 50595
+Number of distinct site patterns: 210400
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: JTT+R4
+
+State frequencies: (model)
+
+Model of rate heterogeneity: FreeRate with 4 categories
+Site proportion and rates:  (0.3383,0.1353) (0.3034,0.6087) (0.3133,1.7073) (0.0451,5.2059)
+
+ Category  Relative_rate  Proportion
+  1         0.1353         0.3383
+  2         0.6087         0.3034
+  3         1.7073         0.3133
+  4         5.2059         0.0451
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -3080139.6226 (s.e. 3314.2780)
+Unconstrained log-likelihood (without tree): -5331751.4069
+Number of free parameters (#branches + #model parameters): 41
+Akaike information criterion (AIC) score: 6160361.2452
+Corrected Akaike information criterion (AICc) score: 6160361.2526
+Bayesian information criterion (BIC) score: 6160814.6319
+
+Total tree length (sum of branch lengths): 1.6010
+Sum of internal branch lengths: 0.1907 (11.9139% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon '1' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++-----------------------------------------------------------1
+|
+|            +--------10
+|        +---| (100/100)
+|        |   +------------------------15
+|     +--| (100/100)
+|     |  |  +-------------5
+|     |  +--| (99.9/100)
+|     |     +---------------8
+|  +--| (100/100)
+|  |  |             +------11
+|  |  |        +----| (100/100)
+|  |  |        |    +--------------------16
+|  |  |     +--| (100/100)
+|  |  |     |  |  +-----------6
+|  |  |     |  +--| (100/100)
+|  |  |     |     +-------------9
+|  |  |  +--| (100/85)
+|  |  |  |  |   +-------13
+|  |  |  |  +---| (100/100)
+|  |  |  |      +---------------------18
+|  |  +--| (100/100)
+|  |     |        +-------12
+|  |     |     +--| (100/100)
+|  |     |     |  +------------------------17
+|  |     |  +--| (100/100)
+|  |     |  |  +-----------7
+|  |     +--| (99.7/83)
+|  |        |    +--------14
+|  |        +----| (100/100)
+|  |             +-------------------------19
++--| (100/100)
+|  |      +---3
+|  +------| (100/100)
+|         +----4
+|
++------------------2
+
+Tree in newick format:
+
+(1:0.2606388560,((((10:0.0433732301,15:0.1102822386)100/100:0.0197548864,(5:0.0611154526,8:0.0701177321)99.9/100:0.0038406952)100/100:0.0095460255,((((11:0.0338690478,16:0.0954963827)100/100:0.0229108949,(6:0.0554814148,9:0.0648049705)100/100:0.0046276657)100/100:0.0039479842,(13:0.0355445012,18:0.0977522728)100/100:0.0192731176)100/85:0.0022338251,(((12:0.0353006001,17:0.1121859053)100/100:0.0171869614,7:0.0551631027)100/100:0.0039856320,(14:0.0406069783,19:0.1139818737)100/100:0.0241399290)99.7/83:0.0017305412)100/100:0.0031231329)100/100:0.0103962550,(3:0.0175788402,4:0.0222178934)100/100:0.0327668160)100/100:0.0112802121,2:0.0847671712);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -3080139.61658504
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.00000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++-----------------------------------------------------------1
+|
+|            +--------10
+|        +---| (100)
+|        |   +------------------------15
+|     +--| (100)
+|     |  |  +-------------5
+|     |  +--| (100)
+|     |     +---------------8
+|  +--| (100)
+|  |  |             +------11
+|  |  |        +----| (100)
+|  |  |        |    +--------------------16
+|  |  |     +--| (100)
+|  |  |     |  |  +-----------6
+|  |  |     |  +--| (100)
+|  |  |     |     +-------------9
+|  |  |  +--| (85)
+|  |  |  |  |   +-------13
+|  |  |  |  +---| (100)
+|  |  |  |      +---------------------18
+|  |  +--| (100)
+|  |     |        +-------12
+|  |     |     +--| (100)
+|  |     |     |  +------------------------17
+|  |     |  +--| (100)
+|  |     |  |  +-----------7
+|  |     +--| (83)
+|  |        |    +--------14
+|  |        +----| (100)
+|  |             +-------------------------19
++--| (100)
+|  |      +---3
+|  +------| (100)
+|         +----4
+|
++------------------2
+
+
+Consensus tree in newick format: 
+
+(1:0.2607093239,((((10:0.0433688556,15:0.1103091060)100:0.0197828242,(5:0.0611350858,8:0.0701403150)100:0.0038397869)100:0.0095451477,((((11:0.0338742794,16:0.0955270298)100:0.0229217992,(6:0.0555007568,9:0.0648271516)100:0.0046261673)100:0.0039497616,(13:0.0355576543,18:0.0977837967)100:0.0192756784)85:0.0022346624,(((12:0.0353126305,17:0.1122190777)100:0.0171896566,7:0.0551806719)100:0.0039855321,(14:0.0406216963,19:0.1140179279)100:0.0241437855)83:0.0017305518)100:0.0031236196)100:0.0103978827,(3:0.0175834547,4:0.0222239640)100:0.0327759056)100:0.0112752652,2:0.0847933656);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t concatenation9.phy.trimaled.treefile -m "JTT+R4{0.338251,0.135274,0.303397,0.608741,0.313266,1.7073,0.0450864,5.20586}" --length 468931
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s concatenation9.phy.trimaled --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s concatenation9.phy.trimaled --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Sun Oct  1 20:42:55 2023
+Total CPU time used: 120605.8493 seconds (33h:30m:5s)
+Total wall-clock time used: 24001.00122 seconds (6h:40m:1s)
+
